@@ -1,5 +1,7 @@
 .main {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-section {
@@ -20,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .main-section-cta-titulo {
@@ -37,4 +39,10 @@
     font-weight: bold;
     font-size: 24px;
     color: #120C1D;
+}
+
+.main-section-cta-texto {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
