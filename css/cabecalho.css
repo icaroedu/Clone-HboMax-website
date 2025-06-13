@@ -1,8 +1,8 @@
 .cabecalho {
     display: flex;
+    position: fixed;
+    width: 100%;
     background-color: #120C1D;
-    width: 1440px;
-    height: 65px;
 }
 
 .cabecalho-menu {
