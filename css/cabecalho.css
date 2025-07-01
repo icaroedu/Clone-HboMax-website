@@ -1,0 +1,55 @@
+.cabecalho {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* opcional, para alinhar verticalmente */
+    padding: 20px 60px; /* um espaçamento interno opcional */
+    width: 100%;
+}
+
+.cabecalho-menu-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.cabecalho-menu-nav-image {
+    width: 110px;
+    height: 30px;
+}
+
+.cabecalho-menu-nav-login {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 10px 22px;
+}
+.cabecalho-menu-nav-login:hover {
+    background-color: #615f5f86;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.cabecalho-menu-nav-escreverse {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #120C1D;
+    padding: 10px 22px;
+}
+
+.cabecalho-menu-nav-escreverse:hover {
+    opacity: 0.8;
+}

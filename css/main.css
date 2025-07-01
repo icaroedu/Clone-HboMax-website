@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/MAX_Quilt_1920x1080_DAZN.svg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+
+.main-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-section-image {
+    margin-top: 200px;
+    width: 360px;
+    height: 100px;
+}
+
+.main-section-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.main-section-cta-titulo {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.main-section-cta-link {
+    padding: 16px 20px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #120C1D;
+}
+
+.main-section-cta-link:hover {
+    opacity: 0.8;
+}
+
+.main-section-cta-texto {
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
