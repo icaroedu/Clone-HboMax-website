@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .planos {
     display: flex;
     margin-top: 200px;
@@ -124,4 +125,94 @@ hr {
     font-family: "inter", sans-serif;
     font-size: 12px;
     font-weight: 300;
+=======
+.planos {
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.planos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.planos-container-informacao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.planos-container-titulo {
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.planos-container-texto {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.planos-butoes {
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.planos-butoes-mensual {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    background-color: #FFFFFF;
+    color: #120C1D;
+    width: 230px;
+    height: 65px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.planos-butoes-mensual:hover {
+    background-color: #120C1D;
+    color: #FFFFFF;
+}
+
+.planos-butoes-anual {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    background-color: #120C1D;
+    color: #FFFFFF;
+    width: 230px;
+    height: 65px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.planos-butoes-anual:hover {
+    background-color: #FFFFFF;
+    color: #120C1D;
+}
+
+.carrosel {
+    display: flex;
+    gap: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 335px;
+    height: 540px;
+    border-radius: 6px;
+>>>>>>> 989f9d24f9c1e065bf5fc38ceba9075ff4bf3133
 }

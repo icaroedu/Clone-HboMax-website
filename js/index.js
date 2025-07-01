@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const btnMensal = document.getElementById('btn-mensal');
 const btnAnual = document.getElementById('btn-anual');
 const planCards = document.getElementById('plan-cards');
@@ -53,3 +54,7 @@ btnAnual.addEventListener('click', () => {
 
 // Carregar mensal por padrão
 renderizarCards('mensal');
+=======
+
+  
+>>>>>>> 989f9d24f9c1e065bf5fc38ceba9075ff4bf3133

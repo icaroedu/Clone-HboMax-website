@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(cabecalho.css);
 @import url(main.css);
 @import url(planos.css);
@@ -16,3 +17,20 @@ body {
     height: 65px;
 }
 
+=======
+@import url(cabecalho.css);
+@import url(main.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "inter", sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+>>>>>>> 989f9d24f9c1e065bf5fc38ceba9075ff4bf3133
